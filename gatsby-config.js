@@ -6,7 +6,11 @@ module.exports = {
   siteMetadata: {
     siteTitleAlt: ``,
     siteTitle: `clapier.io`,
-    siteImage: `/banner.jpg`
+    siteTitleAlt: `clapier.io`,
+    siteImage: `/lupine.jpg`,
+    siteHeadline: `clapier.io`,
+    siteDescription: `The personal site of Wade Clapier.`,
+    author: `@wclapier`,
   },
   plugins: [
     {
@@ -30,7 +34,11 @@ module.exports = {
           {
             name: `Instagram`,
             url: `https://www.instagram.com/wclapier/`,
-          },
+          },,
+          {
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/wade-clapier-b3146a85/`
+          }
         ],
       },
     },
