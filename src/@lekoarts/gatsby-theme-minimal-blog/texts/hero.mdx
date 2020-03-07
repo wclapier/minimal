@@ -1,7 +1,7 @@
-import { Chart } from '../components/chart'
+import React, { lazy, Suspense } from 'react';
 
-# Here’s a chart
-
-The chart is rendered inside our MDX document.
-
-<Chart />
+<div>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Content />
+    </Suspense>
+  </div>
