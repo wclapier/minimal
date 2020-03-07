@@ -5,6 +5,7 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `clapier.io`,
   },
   plugins: [
     {
