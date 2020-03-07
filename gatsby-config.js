@@ -4,7 +4,6 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: ``,
     siteTitle: `clapier.io`,
     siteTitleAlt: `clapier.io`,
     siteImage: `/lupine.jpg`,
