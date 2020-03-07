@@ -6,6 +6,7 @@ module.exports = {
   siteMetadata: {
     siteTitleAlt: ``,
     siteTitle: `clapier.io`,
+    siteImage: `/banner.jpg`
   },
   plugins: [
     {
