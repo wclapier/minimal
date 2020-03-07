@@ -33,7 +33,7 @@ module.exports = {
           {
             name: `Instagram`,
             url: `https://www.instagram.com/wclapier/`,
-          },,
+          },
           {
             name: `LinkedIn`,
             url: `https://www.linkedin.com/in/wade-clapier-b3146a85/`
