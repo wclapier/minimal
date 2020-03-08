@@ -12,7 +12,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-min./staticimal-blog`,
+      resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {
         navigation: [
           {
