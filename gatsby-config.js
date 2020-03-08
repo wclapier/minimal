@@ -17,13 +17,9 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
-          },
-          {
             title: `About`,
-            slug: `/about`,
-          },
+            slug: `/about`
+          }
         ],
         externalLinks: [
           {
