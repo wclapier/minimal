@@ -12,7 +12,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-minimal-blog`,
+      resolve: `@lekoarts/gatsby-theme-min./staticimal-blog`,
       options: {
         navigation: [
           {
@@ -53,7 +53,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#6B46C1`,
         display: `standalone`,
-        icon: `/terminal-solid.svg`,
+        icon: `./static/terminal-solid.svg`,
       },
     },
     `gatsby-plugin-offline`,
