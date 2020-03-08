@@ -8,7 +8,7 @@ module.exports = {
     siteTitleAlt: `clapier.io`,
     siteImage: `/lupine.jpg`,
     siteHeadline: `clapier.io`,
-    siteDescription: `The personal site of Wade Clapier.`,
+    siteDescription: `Wade Clapier`,
     author: `@wclapier`,
   },
   plugins: [
@@ -54,18 +54,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#6B46C1`,
         display: `standalone`,
-        icons: [
-          {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
+        icon: `terminal-solid.svg`,
       },
     },
     `gatsby-plugin-offline`,
